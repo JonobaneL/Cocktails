@@ -17,7 +17,6 @@ function App() {
         <Navbar/>
         <AppRoute/>
       </BrowserRouter>
-      {/* <FindCocktail/> */}
     </div>
   )
 }

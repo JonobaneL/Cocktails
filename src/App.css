@@ -65,3 +65,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-size: 50px;
   z-index: 3;
 }
+.drink{
+  width: 100%;
+  background: #2f2f2f;
+  color: #fff;
+  padding:80px;
+  display: flex;
+  gap: 20px;
+}
+.drinkImg{
+  width: 400px;
+}
+.drink-info{
+  display: grid;
+  
+}
+.drink__title{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from './DrinkCard.module.css'
 
 const DrinkCard =({data})=>{
@@ -6,7 +7,7 @@ const DrinkCard =({data})=>{
         <div className={styles.drink}>
             <img src={data.strDrinkThumb} />
             <div className={styles.info}>
-                <p className={styles.title}>{data.strDrink}</p>
+                <Link to={`/cocktail/${data.idDrink}`}><p className={styles.title}>{data.strDrink}</p></Link>
                 <hr />
                 <p className={styles.subTitle}>{data.strCategory}</p>
             </div>

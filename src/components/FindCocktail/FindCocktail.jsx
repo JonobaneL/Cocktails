@@ -7,7 +7,7 @@ import DrinkCard from "../DrinkCard/DrinkCard";
 import DrinkList from "../DrinkList/DrinkList";
 
 const FindCocktail =()=>{
-    const [fCocktail,setFCocktail] =useState(' ');
+    const [fCocktail,setFCocktail] =useState('');
     const [cocktails, setCocktails] = useState([]);
     const [fetcCocktails,isCocktailsLoading,cocktailsError] = useFetching(async()=>{
         const response = await CocktailService.getCocktailByName(fCocktail);

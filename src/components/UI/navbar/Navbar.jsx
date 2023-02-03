@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from  './Navbar.module.css';
-import glass from '../../../images/glass.png'
+import glass from '../../../images/cocktails.png'
 
 const Navbar = () => {
     return (

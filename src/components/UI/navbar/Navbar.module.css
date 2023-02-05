@@ -14,8 +14,7 @@
     left: 0;
     width: 100%;
     height: 480px;
-    background: rgba(0,0,0,0.8);
-    z-index: 1;
+    background: linear-gradient(0deg, rgba(19,49,92,1) 10%, rgba(19,49,92,0.8939950980392157) 33%, rgba(0,0,0,0.5242471988795518) 67%);
 }
 .title{
     width: 100%;

@@ -6,6 +6,7 @@ import CocktailService from "../../API/CocktailService";
 import DrinkList from "../DrinkList/DrinkList";
 import findIcon from '../../images/search-icon.png'
 import cancelIcon from '../../images/cancel.png'
+import Loader from "../UI/loader/Loader";
 // import Filters from "../Filters/Filters";
 
 const FindCocktail =()=>{
@@ -37,7 +38,7 @@ const FindCocktail =()=>{
                 <button className={styles.findButton} onClick={getData}><img src={findIcon} alt="Find" /></button>
             </div>
             
-            {isShow &&(isCocktailsLoading ? <h1>Loading</h1>:<DrinkList drinks={cocktails}/>)}
+            {isShow &&(isCocktailsLoading ? <Loader color='blue'/>:<DrinkList drinks={cocktails}/>)}
         </div>
     )
 }

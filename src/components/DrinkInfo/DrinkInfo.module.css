@@ -1,0 +1,72 @@
+.drinInfo{
+    width: 100%;
+    background: #eef4ed;
+    color: #13315c;
+    padding:80px;
+    display: flex;
+    justify-content: center;
+}
+
+.details{
+    width: 70%;
+    -webkit-box-shadow: 0px 0px 5px 0px #134074;
+    -moz-box-shadow: 0px 0px 5px 0px #134074;
+    box-shadow: 0px 0px 5px 0px #134074;
+    display: flex;
+    /* grid-template-columns: 460px 1fr;  */
+    /* grid-template-rows: auto 30px 30px 1fr 1fr;  */
+    /* gap: 0 10px; */
+    /* grid-template-areas: 
+    "image title"
+    "image category"
+    "image glass"
+    "image ingredients"
+    "image instruction";
+    align-items: center; */
+}
+.info{
+    padding: 20px;
+}
+.drinkName{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    grid-area: title;
+}
+.drinImage{
+    width: 460px;
+    /* grid-area: image; */
+}
+/* .category{
+    grid-area: category;
+   
+}
+.glass{
+    grid-area: glass;
+} */
+.category{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.glass{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.ingredients{
+    /* grid-area: ingredients; */
+    margin-bottom: 20px;
+}
+
+.ingredients li{
+    font-size: 16px;
+    border-bottom: 1px solid #13315c;
+    line-height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px;
+}
+.instruction{
+    font-size: 16px;
+    line-height: 18px;
+}

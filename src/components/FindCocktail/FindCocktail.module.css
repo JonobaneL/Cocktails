@@ -1,12 +1,10 @@
 .find{
     width: 100%;
     background: #eef4ed;
-    /* border: 1px solid #fff; */
 }
 .findButton, .cancelButton{
     width: 25px;
     background: none;
-    /* border-bottom: 1px solid #fff; */
 }
 .findButton img{
     width: 100%;
@@ -21,7 +19,6 @@
     color: #fff;
     background: #13315c;
     padding:0 80px 50px 80px;
-    /* border-bottom: 1px solid #fff; */
     position: relative;
 }
 

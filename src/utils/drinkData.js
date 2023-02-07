@@ -9,7 +9,6 @@ export const getIngredients =(drink)=>{
             }
             else{continue;}
         }
-        console.log(ingredients)
         return ingredients;
 }
 export const getMeasure = (drink,count)=>{
@@ -17,6 +16,5 @@ export const getMeasure = (drink,count)=>{
     for(let i=1;i<=count;i++){
         measure.push(drink[`strMeasure${i}`])
     }
-    console.log(measure)
     return measure
 }

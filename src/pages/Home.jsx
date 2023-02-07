@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import CocktailService from "../API/CocktailService";
-import DrinkList from "../components/DrinkList/DrinkList";
 import FindCocktail from "../components/FindCocktail/FindCocktail";
 import PopularDrinks from "../components/PopularDrinks/PopularDrinks";
 
